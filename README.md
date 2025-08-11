@@ -39,5 +39,5 @@ terraform destroy -auto-approve
 ```
   
 NOTE:
-Be sure to check in the Manager portion of the NSX-T UI, as pre NSX-T 3.2, TF uses the management API (not the policy API).
+For older version of NSX, be sure to check in the Manager portion of the NSX-T UI, as pre NSX-T 3.2, TF uses the management API (not the policy API).
 In time, Policy API (and UI) will show the TF created objects
