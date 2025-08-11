@@ -17,3 +17,8 @@ echo "Path:        $SEG_PATH"
 # 2) Use the returned path to GET the object and print multicast
 curl -sk -u "$U:$P" "https://$NSX/policy/api/v1${SEG_PATH}" \
 | jq '{id, display_name, path, multicast: .advanced_config.multicast}'
+echo "  "
+echo "================================"
+echo "Long Form"
+echo "================================"
+curl -sk -u "$U:$P" "https://$NSX/policy/api/v1${SEG_PATH}"
