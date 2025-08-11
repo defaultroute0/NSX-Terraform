@@ -1,3 +1,10 @@
+# Dump files for tf-web
+#./get-segment.sh tf-web
+# (Edit segment-tf-web.update.json as needed, e.g. change "description", or remove advanced attributes)
+# Push the full document back
+#./update-segment.sh tf-web
+#################################
+
 #!/usr/bin/env bash
 set -euo pipefail
 
