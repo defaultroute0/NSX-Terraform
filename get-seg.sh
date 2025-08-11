@@ -1,7 +1,7 @@
 # Example Usage:     ./get-seg.sh tf-web 
-NSX="nsx-manager.yourdomain"
+NSX="nsx-wld01-a.site-a.vcf.lab"
 U="admin"
-P='your-password'
+P='XXXX'
 SEG_NAME="$1"
 
 # 1) Find the segment by display_name; capture its UUID (id) and full policy path
