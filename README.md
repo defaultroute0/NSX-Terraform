@@ -1,5 +1,5 @@
 # terraform-nsxt
-very simple, and single flat tf file to get NSX-T configured with a sample T1 router and associated logical segments and DFW policy
+A simple example to get NSX-T configured with a sample T1 router and associated logical segments and DFW policy in 'VCF 9.0 Advanced Lab' in SE Field Labs.
 
 Step1: 
 install terraform on your chosen linux box
