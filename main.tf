@@ -9,7 +9,7 @@ terraform {
 
 provider "nsxt" {
   username             = "admin"
-  password             = "VMware123!VMware123!"
+  password             = "XXXX"
   host                 = "nsx-wld01-a.site-a.vcf.lab"
   allow_unverified_ssl = true
 }
